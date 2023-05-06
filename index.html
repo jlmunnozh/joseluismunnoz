@@ -140,6 +140,8 @@
                         <!-- <label for="name">Nombre</label><br/> -->
                         <input type="text" name="name" id="name" placeholder="Nombre" required />
                         <br /><br />
+                        <input type="password" name="password" id="password" placeholder="Contraseña">
+                        <br /><br />
                         <!-- <label for="mail">Correo</label><br /> -->
                         <input type="email" name="mail" id="mail" placeholder="Correo" min="5" maxlength="256" required />
                         <br /><br />
@@ -152,6 +154,7 @@
                         <label for="">Sueños a realizar</label>
                         <br />
                         <select name="dream" id="dream" required>
+                            <option value="">--- Sueño a realizar ---</option>
                             <option value="landing-page">Landing Page</option>
                             <option value="e-commerce">e-commerce</option>
                             <option value="foro">Foro</option>
@@ -159,6 +162,8 @@
                         </select>
                         <br /><br />
                         <input type="submit" value="Registrar Sueño" />
+                        <br /><br />
+                        
                         <br /><br />
                     </div>
                 </form>
