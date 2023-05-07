@@ -2,3 +2,7 @@
 body{
     background-image: linear-gradient(rgba(69, 66, 226, 0.459), rgba(255, 137, 2, 0.466));
 }
+.c-profile{
+    background-image: url(logo_red_01.svg);
+    background-repeat: no-repeat;
+}
