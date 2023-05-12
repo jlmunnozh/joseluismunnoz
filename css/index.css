@@ -36,6 +36,11 @@
     justify-content: space-between;
 }
 
+.flexbox--center{
+    align-items: center;
+    justify-content: center;
+}
+
  /* .g-layout{
     display: grid;
 }
@@ -102,24 +107,23 @@
 }
 
 .button{
-    width: 100%;
-    display: block;
-    padding: 0.5rem 2rem;
-    background-image: linear-gradient(to right, #4e0c85b4 0%, #333131 50%, #1a0ec2b6 100%);
+    display: inline-block;
+    padding: 0.5em 2em;
     /* background-color: rgba(27, 58, 196, 0.781);     */
     /* background-size: 200% auto; */
     border: none;
-    border-radius: 10px;
+    border-radius: 1rem;
     /* box-shadow: 0 0 20px #eee; */
+    background-image: linear-gradient(to right, #4e0c85b4 0%, #333131 50%, #1a0ec2b6 100%);
     color: white;
     font-family: monospace;
     font-size: 1rem;
     font-weight: 700;
-    cursor: pointer;
-    text-decoration: none;
-    text-align: center;
     /* transition: 0.5s; */
+    text-align: center;
     box-sizing: border-box;
+    text-decoration: none;
+    cursor: pointer;
 }
 
 .d-flex{
