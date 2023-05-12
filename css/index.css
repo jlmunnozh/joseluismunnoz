@@ -30,19 +30,18 @@
     display: flex;
 }
 
- .g-layout{
+.flexbox--header{
+    align-items: center;
+    justify-content: space-between;
+}
+
+ /* .g-layout{
     display: grid;
 }
 
  .g-layout--1-1{
     grid-template-columns: 1fr 1fr;
-
-}
-
-.flexbox--header{
-    align-items: center;
-    justify-content: space-between;
-}
+} */
 
 .img{
     display: block;
@@ -73,6 +72,31 @@
     background-position: center;
     display: flex;
     align-items: center;
+}
+
+/* .card{
+
+} */
+
+.card__body{
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+}
+
+.card__title{    
+    margin: 0;
+    font-size: 1.75rem;
+}
+
+.card__subtitle{
+    margin: 0;
+    font-size: 1.25rem;
+    color: rgb(187, 187, 187);
+}
+
+.card_text{
+    margin: 0;
 }
 
 .d-flex{
